@@ -1,0 +1,33 @@
+.score-board {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  width: 80%;
+  margin:3rem auto;
+  background: rgba(255, 255, 255, 0.40);
+
+  color:black;
+  border-radius: 12px;
+  font-size: 30px;
+  padding: 1.5rem;
+
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.board_row{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn{
+  padding: 0.5rem 2rem;
+  color: #bbb lack;;
+  font-size: 24px;
+  margin:1rem;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
